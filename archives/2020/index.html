@@ -59,25 +59,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="description" content="It&#39;s an IT blog..."/>
   <meta name="keyword" content="network,machine learning, code"/>
-  <link rel="shortcut icon" href="/img/avatar/roguerabbit.jpg"/>
+  <link rel="shortcut icon" href="/img/avatar/github-icon.png"/>
 
   <!-- Place this tag in your head or just before your close body tag. -->
   <script async="async" defer="defer" src="https://buttons.github.io/buttons.js"></script>
 
   
     <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/V-Vincen/V-Vincen.github.io/css/bootstrap.min.css"/>
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/beantech.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/V-Vincen/V-Vincen.github.io/css/beantech.min.css"/>
 
     <!-- Pygments Highlight CSS -->
-    <link rel="stylesheet" href="/css/highlight.css"/>
-    <link rel="stylesheet" href="/css/widget.css"/>
-    <link rel="stylesheet" href="/css/rocket.css"/>
-    <link rel="stylesheet" href="/css/signature.css"/>
-    <link rel="stylesheet" href="/css/catalog.css"/>
-    <link rel="stylesheet" href="/css/livemylife.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/V-Vincen/V-Vincen.github.io/css/highlight.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/V-Vincen/V-Vincen.github.io/css/widget.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/V-Vincen/V-Vincen.github.io/css/rocket.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/V-Vincen/V-Vincen.github.io/css/signature.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/V-Vincen/V-Vincen.github.io/css/catalog.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/V-Vincen/V-Vincen.github.io/css/livemylife.css"/>
 
     
 
@@ -87,20 +87,16 @@
 
     
       <!-- viewer start (Picture preview) -->
-      <link rel="stylesheet" href="/css/viewer.min.css"/>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/V-Vincen/V-Vincen.github.io/css/viewer.min.css"/>
       <!-- viewer end -->
     
 
     
       <!-- Search start -->
-      <link rel="stylesheet" href="/css/search.css"/>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/V-Vincen/V-Vincen.github.io/css/search.css"/>
       <!-- Search end -->
     
 
-    
-      <!-- ThemeColor start -->
-      <link rel="stylesheet" href="/css/themecolor.css"/>
-      <!-- ThemeColor end -->
     
 
     
@@ -108,9 +104,10 @@
     
       <!-- gitalk start -->
       <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css"> -->
-      <link rel="stylesheet" href="/css/gitalk.css"/>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/V-Vincen/V-Vincen.github.io/css/gitalk.css"/>
       <!-- gitalk end -->
     
+
   
 
   <!-- Custom Fonts -->
@@ -138,59 +135,10 @@
 
 <!-- hack iOS CSS :active style -->
 
-	<body ontouchstart="" class="body--light body--dark">
+	<body ontouchstart="" class="body--light">
 
 
 		<!-- ThemeColor -->
-		
-		<!-- ThemeColor -->
-<style type="text/css">
-  .body--light {
-    --light-mode: none;
-    --dark-mode: block;
-  }
-  .body--dark {
-    --light-mode: block;
-    --dark-mode: none;
-  }
-  i.mdui-icon.material-icons.light-mode {
-    display: var(--light-mode);
-  }
-  i.mdui-icon.material-icons.dark-mode {
-    display: var(--dark-mode);
-  }
-</style>
-<div class="toggle" onclick="document.body.classList.toggle('body--dark')">
-  <i class="mdui-icon material-icons light-mode"></i>
-  <i class="mdui-icon material-icons dark-mode"></i>
-</div>
-<script>
-  //getCookieValue
-  function getCookieValue(a) {
-    var b = document.cookie.match('(^|[^;]+)\\s*' + a + '\\s*=\\s*([^;]+)');
-    return b
-      ? b.pop()
-      : '';
-  }
-  let themeMode = 'dark';
-  if (getCookieValue('sb-color-mode') && (getCookieValue('sb-color-mode') !== themeMode)) {
-    let dbody = document.body.classList;
-    themeMode === 'dark' ? dbody.remove('body--dark') : dbody.add('body--dark');
-  }
-
-  //setCookieValue
-  var toggleBtn = document.querySelector(".toggle");
-  toggleBtn.addEventListener("click", function () {
-    var e = document.body.classList.contains("body--dark");
-    var cookieString = e
-      ? "dark"
-      : "light";
-    var exp = new Date();
-    exp.setTime(exp.getTime() + 3 * 24 * 60 * 60 * 1000); //3天过期
-    document.cookie = "sb-color-mode=" + cookieString + ";expires=" + exp.toGMTString() + ";path=/";
-  });
-</script>
-
 		
 
 		<!-- Gitter -->
@@ -348,32 +296,33 @@
 		<!-- Modified by Yu-Hsuan Yen -->
 <!-- Post Header -->
 
+  <!-- CDN: jsdelivr start -->
   <style type="text/css">
     .body--light {
       /* intro-header */
-      --intro-header-background-image-url-home: url('/img/header_img/newhome_bg.jpg');
-      --intro-header-background-image-url-post: url('');
-      --intro-header-background-image-url-page: url('/img/header_img/archive_bg3.jpg');
+      --intro-header-background-image-url-home: url('https://cdn.jsdelivr.net/gh/V-Vincen/V-Vincen.github.io/img/header_img/newhome_bg.jpg');
+      --intro-header-background-image-url-post: url('https://cdn.jsdelivr.net/gh/V-Vincen/V-Vincen.github.io');
+      --intro-header-background-image-url-page: url('https://cdn.jsdelivr.net/gh/V-Vincen/V-Vincen.github.io/img/header_img/archive_bg3.jpg');
     }
     .body--dark {
-      --intro-header-background-image-url-home: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('/img/header_img/newhome_bg.jpg');
-      --intro-header-background-image-url-post: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('');
-      --intro-header-background-image-url-page: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('/img/header_img/archive_bg3.jpg');
+      --intro-header-background-image-url-home: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/V-Vincen/V-Vincen.github.io/img/header_img/newhome_bg.jpg');
+      --intro-header-background-image-url-post: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/V-Vincen/V-Vincen.github.io');
+      --intro-header-background-image-url-page: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('https://cdn.jsdelivr.net/gh/V-Vincen/V-Vincen.github.io/img/header_img/archive_bg3.jpg');
     }
-
     header.intro-header {
        /*page*/
         background-image: var(--intro-header-background-image-url-page);
-        /* background-image: url('/img/header_img/archive_bg3.jpg'); */
+        /* background-image: url('https://cdn.jsdelivr.net/gh/V-Vincen/V-Vincen.github.io/img/header_img/archive_bg3.jpg'); */
       
     }
 
     
       #signature {/*signature*/
-        background-image: url('/img/signature/vincent-white.png');
+        background-image: url('/img/signature/Helen.png');
       }
     
   </style>
+  <!-- CDN: jsdelivr end -->
 
 
 
@@ -490,75 +439,6 @@
     sidebar-container
 ">
     
-        <!-- Visitors -->
-<h5><a href="/">VISITORS</a></h5>
-
-<div class="widget">
-  <span>
-    Viewed <b><i><span id="busuanzi_value_site_pv"><i class="fa fa-spinner fa-spin"></i></span></i></b> Times
-  </span>
-  <br />
-  <span>
-    <b><i><span id="busuanzi_value_site_uv"><i class="fa fa-spinner fa-spin"></i></span></i></b> Visitors In Total
-  </span>
-</div>
-
-
-        <hr>
-    
-        <!-- Featured Tags -->
-
-<section>
-  <h5><a href="/tags/">FEATURED TAGS</a></h5>
-  <div class="tags">
-    
-    
-    <a href="/tags/#Hexo-Theme-LiveMyLife" title="Hexo-Theme-LiveMyLife" rel="2">Hexo-Theme-LiveMyLife</a>
-    
-    
-  </div>
-</section>
-
-
-        <hr>
-    
-        <!-- Short About -->
-<section class="visible-md visible-lg">
-  <h5><a href="/about/">ABOUT ME</a></h5>
-  <div class="short-about">
-
-    
-    <img id="avatar_pic" src="/img/avatar/roguerabbit.jpg" alt="avatar_pic" style="box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .5);
-    -moz-box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .5);
-    -webkit-box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, .5);" />
-    
-
-    
-
-    <!-- SNS Link -->
-    <ul class="list-inline">
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-
-    </ul>
-  </div>
-</section>
-
-        <hr>
-    
         <!-- RECENT POSTS -->
 
 <h5><a href="/">RECENT POSTS</a></h5>
@@ -575,24 +455,6 @@
     
   </ul>
 </div>
-
-
-        <hr>
-    
-        <!-- Friends Blog -->
-
-<h5><a href="/">FRIENDS</a></h5>
-<ul class="list-inline">
-  
-  <li><a href="https://v-vincen.life/" target="_blank">V_Vincen</a></li>
-  
-  <li><a href="http://beantech.org" target="_blank">Bean Tech</a></li>
-  
-  <li><a href="http://huangxuan.me" target="_blank">Hux Blog</a></li>
-  
-  <li><a href="https://hexo.io/" target="_blank">Hexo</a></li>
-  
-</ul>
 
 
         <hr>
@@ -619,6 +481,22 @@
     
   </ul>
 </div>
+
+
+        <hr>
+    
+        <!-- Featured Tags -->
+
+<section>
+  <h5><a href="/tags/">FEATURED TAGS</a></h5>
+  <div class="tags">
+    
+    
+    <a href="/tags/#Hexo-Theme-LiveMyLife" title="Hexo-Theme-LiveMyLife" rel="2">Hexo-Theme-LiveMyLife</a>
+    
+    
+  </div>
+</section>
 
 
         <hr>
@@ -657,7 +535,7 @@
         </ul>
         <p class="copyright text-muted">
           Copyright &copy;
-          Hui Feng
+          Feng
           2022
           <br>
           Theme by
@@ -679,51 +557,69 @@
 
 
   <!-- jQuery -->
-  <script type="text/javascript" src="/js/jquery.min.js"></script>
-  <!-- Bootstrap Core JavaScript -->
-  <script type="text/javascript" src="/js/bootstrap.min.js"></script>
-  <!-- Custom Theme JavaScript -->
-  <script type="text/javascript" src="/js/hux-blog.min.js"></script>
-  <!-- catalog -->
-  <script async="true" type="text/javascript" src="/js/catalog.js"></script>
-  <!-- totop(rocket) -->
-  <script async="true" type="text/javascript" src="/js/totop.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/V-Vincen/V-Vincen.github.io/js/jquery.min.js"></script>
 
-  
-    <!-- Busuanzi JavaScript -->
-    <script async="async" src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+  <!-- Bootstrap Core JavaScript -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/V-Vincen/V-Vincen.github.io/js/bootstrap.min.js"></script>
+
+  <!-- Custom Theme JavaScript -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/V-Vincen/V-Vincen.github.io/js/hux-blog.min.js"></script>
+
+  <!-- catalog -->
+  <script async="true" type="text/javascript" src="https://cdn.jsdelivr.net/gh/V-Vincen/V-Vincen.github.io/js/catalog.js"></script>
+
+  <!-- totop(rocket) -->
+  <script async="true" type="text/javascript" src="https://cdn.jsdelivr.net/gh/V-Vincen/V-Vincen.github.io/js/totop.js"></script>
+
   
 
   
 
   
     <!-- LangSelect start -->
-    <script type="text/javascript" src="/js/langselect.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/V-Vincen/V-Vincen.github.io/js/langselect.js"></script>
     <!-- LangSelect end -->
   
 
   
-    <!-- Mouseclick -->
-    <script type="text/javascript" src="/js/mouseclick.js" content='The first step is as good as half over...,Laugh and grow fat...,Man proposes God disposes...,When all else is lost the future still remains...,Wasting time is robbing oneself...,Sharp tools make good work...,Cease to struggle and you cease to live...,A friend in need is a friend indeed...,Faith can move mountains...' color='#9933CC,#339933,#66CCCC,#FF99CC,#CCCCFF,#6666CC,#663399,#66CC99,#FF0033'></script>
-  
 
-  
-    <!-- ribbon -->
-    <script type="text/javascript" src="/js/ribbonDynamic.js"></script>
   
 
   
 
 
 
+
+  <!-- CDN: jsdelivr start -->
+  <script async="async" type="text/javascript">
+    let imgsUrl = document.getElementsByTagName("img");
+    let imgUrl = Array.from(imgsUrl);
+
+    let jsdelivr = "https://cdn.jsdelivr.net/gh/";
+    let gh = "V-Vincen";
+    let ghPages = gh + ".github.io";
+    let pagePath = "archives/2020/index.html";
+    let jsdelivrurl;
+    if (pagePath.indexOf("index.html") != -1) {
+      jsdelivrurl = jsdelivr + gh + "/" + ghPages;
+    } else {
+      jsdelivrurl = jsdelivr + gh + "/" + ghPages + "/" + pagePath;
+    }
+    imgUrl.forEach(item => {
+      let oldUrl = item.getAttribute("src");
+      let newUrl = oldUrl.replace(oldUrl, jsdelivrurl + oldUrl).replace("..", "");
+      item.setAttribute("src", newUrl);
+    });
+  </script>
+  <!-- CDN: jsdelivr end -->
 
 
 
   <!-- viewer start -->
   <!-- viewer start (Picture preview) -->
   
-    <script async="async" type="text/javascript" src="/js/viewer/viewer.min.js"></script>
-    <script async="async" type="text/javascript" src="/js/viewer/pic-viewer.js"></script>
+    <script async="async" type="text/javascript" src="https://cdn.jsdelivr.net/gh/V-Vincen/V-Vincen.github.io/js/viewer/viewer.min.js"></script>
+    <script async="async" type="text/javascript" src="https://cdn.jsdelivr.net/gh/V-Vincen/V-Vincen.github.io/js/viewer/pic-viewer.js"></script>
   
 
   <!-- viewer end -->
@@ -791,7 +687,7 @@ start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </scrip
 
 
   
-    <script src="/js/ziploader.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/V-Vincen/V-Vincen.github.io/js/ziploader.js"></script>
   
   <script>
     // Popup Window;
@@ -880,6 +776,8 @@ start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </scrip
             var date = data.date;
             var dateTime = date.replace(/T/, " ").replace(/.000Z/, "");
             var imgUrl = data.header_img;
+            
+              imgUrl = 'https://cdn.jsdelivr.net/gh/V-Vincen/V-Vincen.github.io' + imgUrl;
             
 
 
