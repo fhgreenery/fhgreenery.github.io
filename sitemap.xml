@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite-url/categories/index.html</loc>
-    
-    <lastmod>2022-01-21</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://yoursite-url/tags/index.html</loc>
     
     <lastmod>2022-01-21</lastmod>
@@ -18,21 +11,14 @@
   <url>
     <loc>http://yoursite-url/404.html</loc>
     
-    <lastmod>2022-01-19</lastmod>
+    <lastmod>2022-01-21</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite-url/en/Hexo-Theme-LiveMyLife/</loc>
+    <loc>http://yoursite-url/categories/index.html</loc>
     
-    <lastmod>2020-04-16</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://yoursite-url/cn/Hexo-Theme-LiveMyLife%20-%20test10/</loc>
-    
-    <lastmod>2020-04-16</lastmod>
+    <lastmod>2022-01-21</lastmod>
     
   </url>
   
@@ -45,6 +31,13 @@
   
   <url>
     <loc>http://yoursite-url/cn/Hexo-Theme-LiveMyLife%20-%20test2/</loc>
+    
+    <lastmod>2020-04-16</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite-url/cn/Hexo-Theme-LiveMyLife%20-%20test10/</loc>
     
     <lastmod>2020-04-16</lastmod>
     
@@ -72,6 +65,13 @@
   </url>
   
   <url>
+    <loc>http://yoursite-url/cn/Hexo-Theme-LiveMyLife%20-%20test8/</loc>
+    
+    <lastmod>2020-04-16</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite-url/cn/Hexo-Theme-LiveMyLife%20-%20test6/</loc>
     
     <lastmod>2020-04-16</lastmod>
@@ -86,7 +86,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite-url/cn/Hexo-Theme-LiveMyLife%20-%20test8/</loc>
+    <loc>http://yoursite-url/cn/Hexo-Theme-LiveMyLife%20-%20test9/</loc>
     
     <lastmod>2020-04-16</lastmod>
     
@@ -100,7 +100,7 @@
   </url>
   
   <url>
-    <loc>http://yoursite-url/cn/Hexo-Theme-LiveMyLife%20-%20test9/</loc>
+    <loc>http://yoursite-url/en/Hexo-Theme-LiveMyLife/</loc>
     
     <lastmod>2020-04-16</lastmod>
     

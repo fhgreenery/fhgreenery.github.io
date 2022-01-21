@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://yoursite-url/en/Hexo-Theme-LiveMyLife/</loc>
-    <lastmod>2020-04-16</lastmod>
-  </url>
-  <url>
-    <loc>http://yoursite-url/cn/Hexo-Theme-LiveMyLife%20-%20test10/</loc>
-    <lastmod>2020-04-16</lastmod>
-  </url>
-  <url>
     <loc>http://yoursite-url/cn/Hexo-Theme-LiveMyLife%20-%20test/</loc>
     <lastmod>2020-04-16</lastmod>
   </url>
   <url>
     <loc>http://yoursite-url/cn/Hexo-Theme-LiveMyLife%20-%20test2/</loc>
+    <lastmod>2020-04-16</lastmod>
+  </url>
+  <url>
+    <loc>http://yoursite-url/cn/Hexo-Theme-LiveMyLife%20-%20test10/</loc>
     <lastmod>2020-04-16</lastmod>
   </url>
   <url>
@@ -29,6 +25,10 @@
     <lastmod>2020-04-16</lastmod>
   </url>
   <url>
+    <loc>http://yoursite-url/cn/Hexo-Theme-LiveMyLife%20-%20test8/</loc>
+    <lastmod>2020-04-16</lastmod>
+  </url>
+  <url>
     <loc>http://yoursite-url/cn/Hexo-Theme-LiveMyLife%20-%20test6/</loc>
     <lastmod>2020-04-16</lastmod>
   </url>
@@ -37,7 +37,7 @@
     <lastmod>2020-04-16</lastmod>
   </url>
   <url>
-    <loc>http://yoursite-url/cn/Hexo-Theme-LiveMyLife%20-%20test8/</loc>
+    <loc>http://yoursite-url/cn/Hexo-Theme-LiveMyLife%20-%20test9/</loc>
     <lastmod>2020-04-16</lastmod>
   </url>
   <url>
@@ -45,7 +45,7 @@
     <lastmod>2020-04-16</lastmod>
   </url>
   <url>
-    <loc>http://yoursite-url/cn/Hexo-Theme-LiveMyLife%20-%20test9/</loc>
+    <loc>http://yoursite-url/en/Hexo-Theme-LiveMyLife/</loc>
     <lastmod>2020-04-16</lastmod>
   </url>
 </urlset> 
