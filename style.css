@@ -67,3 +67,4 @@ footer { padding: 48px 20px 40px; color: var(--muted); font-size: 12px; }
   h1 { font-size: 34px; }
   .grid { grid-template-columns: 1fr; }
 }
+.item p.course { font-size: 13px; color: var(--muted); opacity: .85; }
