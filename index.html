@@ -19,7 +19,7 @@
   <nav class="links">
     <a href="resume.pdf">Resume</a>
     <a href="https://github.com/fhgreenery">GitHub</a>
-    <a href="https://www.linkedin.com/in/YOUR-LINKEDIN/">LinkedIn</a>
+    <a href="https://www.linkedin.com/in/huifengin/">LinkedIn</a>
     <a href="https://scholar.google.com/">Scholar</a>
     <a href="mailto:YOUR-EMAIL">Email</a>
   </nav>
@@ -58,30 +58,41 @@
 
   <section>
     <h2>Selected projects</h2>
-    <!-- TODO(Hui): confirm wording and add numbers (speedup, memory saved, model sizes) and links for each project. -->
     <article class="item">
       <h3>AutoUVM <span class="venue">ICCD 2026</span></h3>
-      <p>Automatic Unified Virtual Memory management for GPU workloads that exceed device memory, using prefetching to hide data movement.</p>
+      <p>A CUDA Unified Virtual Memory prefetching framework for LLMs that don't fit in GPU memory. 3.1&times; average speedup (up to 4.7&times;) across ten LLMs under oversubscription, with no changes to model code.</p>
       <p class="item-links"><a href="https://arxiv.org/abs/2609.06172">arXiv</a></p>
     </article>
     <article class="item">
-      <h3>CELLM <span class="venue">ISQED 2026 · first author</span></h3>
-      <p>Efficient LLM inference work. One line on the problem, the approach and the headline result goes here.</p>
+      <h3>HybridGen</h3>
+      <p>CPU&ndash;GPU hybrid attention that offloads the KV cache to CXL tiered memory. 1.41&ndash;3.2&times; faster than six state-of-the-art KV cache methods.</p>
     </article>
     <article class="item">
-      <h3>CipherShield <span class="venue">DAC 2026 · first author</span></h3>
-      <p>One line on the problem, the approach and the headline result goes here.</p>
+      <h3>CELLM <span class="venue">ISQED 2026 &middot; first author</span></h3>
+      <p>Confidential, lightweight LLM inference in trusted execution environments. INT4 inference across CPU, GPU and Intel TDX with up to 3&times; throughput and about 70% less storage than FP16.</p>
+      <p class="item-links"><a href="https://ieeexplore.ieee.org/document/11534707">IEEE Xplore</a></p>
+    </article>
+  </section>
+
+  <section>
+    <h2>Experience</h2>
+    <article class="item">
+      <h3>SilverKey <span class="venue">Software Engineering Intern</span></h3>
+      <p>Built asynchronous LLM pipelines that cut agent response time by 74%.</p>
+    </article>
+    <article class="item">
+      <h3>ENN Group <span class="venue">Algorithm Engineer</span></h3>
+      <p>Federated learning with secure aggregation, deployed across 10 companies.</p>
     </article>
   </section>
 
   <section>
     <h2>Publications</h2>
-    <!-- TODO(Hui): replace with full titles and author lists; bold your own name. -->
     <ol class="pubs">
-      <li><b>AutoUVM</b>. ICCD 2026. <a href="https://arxiv.org/abs/2609.06172">arXiv:2609.06172</a></li>
-      <li><b>CELLM</b>. ISQED 2026. First author.</li>
-      <li><b>CipherShield</b>. DAC 2026. First author.</li>
-      <li><b>QTIME</b>. ICCD 2025.</li>
+      <li><b>AutoUVM: Automated Prefetching Framework for LLMs under UVM Oversubscription.</b> ICCD 2026. <a href="https://arxiv.org/abs/2609.06172">arXiv</a></li>
+      <li><b>CELLM: Confidential and Efficient Lightweight LLM Inference in TEEs.</b> ISQED 2026. First author. <a href="https://ieeexplore.ieee.org/document/11534707">IEEE</a></li>
+      <li><b>CipherShield: Safeguarding DNN Inputs from Ciphertext Side-Channel Attacks in TEE.</b> DAC 2026. First author. <a href="https://doi.org/10.1145/3770743.3804219">ACM</a></li>
+      <li><b>QTIME.</b> ICCD 2025. <a href="https://ieeexplore.ieee.org/document/11311002">IEEE</a></li>
     </ol>
   </section>
 
